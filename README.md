@@ -1,4 +1,4 @@
-# Personalized tasks based on the user retail transaction data
+# Lenta Quest - personalized tasks & achievements based on customer retail transaction data
 
 > Solution produced during "Lenta Hackathon" as part of the "Hack Lab" course in Skotech, September 18-20, 2020
 >
@@ -30,9 +30,9 @@ Task personalization is provided by a multilayer recommendation system working w
 * `hier_level_4` categories
 * `vendor`s
 
-<img alt="Recommendation system" src="/diagram.png" width="480">
+<img alt="Recommendation system" src="/diagram.png" width="640">
 
-Each model is a Collaborative Filtering for implicit feedback datasets based on Alternating Least Squares.
+Each model is a Collaborative Filtering for implicit feedback datasets based on [Alternating Least Squares](https://implicit.readthedocs.io/en/latest/als.html).
 
 Using multiple models we can offer personalized recommendations with various levels of product description: from raw products and their properties to vendors and categories.
 
@@ -46,7 +46,7 @@ Example tasks shown in the [demo](demo.ipynb):
 * *Diversity in category*: recommending to buy goods from one of the most likeable categories
 * *Diverse Basket*: filling your cart with products from at least 7/10 previously bought (or 1/2 novel) `hier_level_2` categories.
 
-## Achievements
+### Achievements
 Example achievements shown in the [demo](demo.ipynb):
 * *Krusenstern*: visit more than 3 Lenta stores
 * *PartyGoer*: buy alcohol on more than 10000 rubles
