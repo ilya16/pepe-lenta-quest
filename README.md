@@ -1,4 +1,4 @@
-# Personalized in-app tasks based on the user retail transaction data
+# Personalized tasks based on the user retail transaction data
 
 > Solution produced during "Lenta Hackathon" as part of the "Hack Lab" course in Skotech, September 18-20, 2020
 >
@@ -15,10 +15,10 @@ Current system of personalized recommendations in Lenta app:
 ## Concept
 
 The solution is a symbiosis of two pillars:
-* Personalized tasks based on the history of transactions for engaging customers
+* ***Personalized tasks*** based on the history of transactions for engaging customers:
   * tasks based on previously bought and novel products
   * tasks in different product categories
-* A system of achievements with rewards and bonuses
+* ***A system of achievements*** with rewards and bonuses:
   * category based
   * product based
   * location based
@@ -29,6 +29,8 @@ Task personalization is provided by a multilayer recommendation system working w
 * `hier_level_3` categories
 * `hier_level_4` categories
 * `vendor`s
+
+<img alt="Recommendation system" src="/diagram.png" width="480">
 
 Each model is a Collaborative Filtering for implicit feedback datasets based on Alternating Least Squares.
 
