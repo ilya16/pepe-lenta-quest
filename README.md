@@ -36,7 +36,7 @@ Each model is a Collaborative Filtering for implicit feedback datasets based on 
 
 Using multiple models we can offer personalized recommendations with various levels of product description: from raw products and their properties to vendors and categories.
 
-See [demo](demo.ipynb) for more details. The business side of the solution is shortly presented in the [video]().
+See [demo](demo.ipynb) for more details. The business side of the solution is shortly presented in the [video](https://youtu.be/KHpbMbEsKXk).
 
 ### Tasks 
 Example tasks shown in the [demo](demo.ipynb):
